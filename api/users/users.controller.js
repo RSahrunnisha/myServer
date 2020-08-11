@@ -204,5 +204,10 @@ var self = (module.exports = {
    
     // console.log(req.decoded)
     return res.status(200).json( req.decoded)
+  },
+  text:(req, res) =>{
+   
+    // console.log(req.decoded)
+    return res.status(200).json({message:'passed'})
   }
 });

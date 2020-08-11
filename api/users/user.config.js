@@ -39,6 +39,15 @@ const userConfig =[
             "type": "get",
             "authorization": true
 
+        
+        },
+         {
+            "path": "/",
+            "roles": [],
+            "controller": controller.text,
+            "type": "get",
+            "authorization": false
+
         }
     ]
 module.exports = userConfig;

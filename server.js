@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const passport = require("passport");
 const users = require("./api/users/users.router");
 const app = express();
+var cors = require('cors')
 
 // Bodyparser middleware
 app.use(
