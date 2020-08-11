@@ -8,16 +8,19 @@
     "start": "node server.js",
     "server": "nodemon server.js"
   },
+  "engines": {
+    "node": "v12.18.2"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ssc197/reviewBackend.git"
+    "url": "git+https://github.com/RSahrunnisha/myServer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ssc197/reviewBackend/issues"
+    "url": "https://github.com/RSahrunnisha/myServer/issues"
   },
-  "homepage": "https://github.com/ssc197/reviewBackend#readme",
+  "homepage": "https://github.com/RSahrunnisha/myServer#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
